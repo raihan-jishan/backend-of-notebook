@@ -1,6 +1,6 @@
 const express = require("express"); // require express
 const router = express.Router();
-const fetchuser = require("../middleware/fetchuser");
+const fetchuser = require("./fetchuser");
 const { body, validationResult } = require("express-validator");
 const Note = require("../models/Note");
 //  Route 01 : get  all the notes using GEt : "api/notes/getnotes"
