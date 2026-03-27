@@ -1,7 +1,7 @@
 const mongoose = require("mongoose"); // require mongoose connector
 
 // const mongooseURI =  process.env.MONGO_DB_URL // string uri
-const mongooseURI ="mongodb+srv://raihan:I6R3mcSl3tZNAQRf@cluster0.um4b1ys.mongodb.net/keep-note?retryWrites=true&w=majority"
+const mongooseURI ="mongodb+srv://raihan:WDNi2z6nVTUYE1kR@cluster0.um4b1ys.mongodb.net/keep-note?retryWrites=true&w=majority"
 //  connect To Mongo function
 const connectToMongo = async () => {
   await mongoose
